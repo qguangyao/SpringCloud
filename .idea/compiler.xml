@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="microservicecloud-02-api" />
+        <module name="microservicecloud-03-provider-product-8001" />
+        <module name="microservicecloud-03-provider-product-8002" />
+        <module name="microservicecloud-04-consumer-product-80" />
+        <module name="microservicecloud-04-consumer-product-8081" />
+        <module name="microservicecloud-05-6001" />
+        <module name="microservicecloud-06-6002" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="microservice-cloud-01" target="1.8" />
+      <module name="microservicecloud-02-api" target="1.8" />
+      <module name="microservicecloud-02-provider-product-8001" target="1.8" />
+      <module name="microservicecloud-03-provider-product-8001" target="1.8" />
+      <module name="microservicecloud-03-provider-product-8001.iml" target="1.8" />
+      <module name="microservicecloud-03-provider-product-8002" target="1.8" />
+      <module name="microservicecloud-04-consumer-product-80" target="1.8" />
+      <module name="microservicecloud-04-consumer-product-8081" target="1.8" />
+      <module name="microservicecloud-05-6001" target="1.8" />
+      <module name="microservicecloud-06-6002" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="microservicecloud-02-api" options="-parameters" />
+      <module name="microservicecloud-02-provider-product-8001" options="-parameters" />
+      <module name="microservicecloud-03-provider-product-8001" options="-parameters" />
+      <module name="microservicecloud-03-provider-product-8001.iml" options="-parameters" />
+      <module name="microservicecloud-03-provider-product-8002" options="-parameters" />
+      <module name="microservicecloud-04-consumer-product-80" options="-parameters" />
+      <module name="microservicecloud-04-consumer-product-8081" options="-parameters" />
+      <module name="microservicecloud-05-6001" options="-parameters" />
+      <module name="microservicecloud-06-6002" options="-parameters" />
+    </option>
+  </component>
+</project>

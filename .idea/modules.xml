@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice-cloud-01/microservice-cloud-01.iml" filepath="$PROJECT_DIR$/microservice-cloud-01/microservice-cloud-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-02-api/microservicecloud-02-api.iml" filepath="$PROJECT_DIR$/microservicecloud-02-api/microservicecloud-02-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-03-provider-product-8001/microservicecloud-03-provider-product-8001.iml" filepath="$PROJECT_DIR$/microservicecloud-03-provider-product-8001/microservicecloud-03-provider-product-8001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-03-provider-product-8002/microservicecloud-03-provider-product-8002.iml" filepath="$PROJECT_DIR$/microservicecloud-03-provider-product-8002/microservicecloud-03-provider-product-8002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../microservicecloud-04-consumer-product-80/microservicecloud-04-consumer-product-80.iml" filepath="$PROJECT_DIR$/../microservicecloud-04-consumer-product-80/microservicecloud-04-consumer-product-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-04-consumer-product-8081/microservicecloud-04-consumer-product-8081.iml" filepath="$PROJECT_DIR$/microservicecloud-04-consumer-product-8081/microservicecloud-04-consumer-product-8081.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-05-6001/microservicecloud-05-6001.iml" filepath="$PROJECT_DIR$/microservicecloud-05-6001/microservicecloud-05-6001.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-06-6002/microservicecloud-06-6002.iml" filepath="$PROJECT_DIR$/microservicecloud-06-6002/microservicecloud-06-6002.iml" />
+    </modules>
+  </component>
+</project>
