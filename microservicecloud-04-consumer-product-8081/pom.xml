@@ -30,7 +30,7 @@
             <artifactId>spring-cloud-starter-openfeign</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.com.qt.springcloud</groupId>
+            <groupId>com.qt.springcloud</groupId>
             <artifactId>microservicecloud-02-api</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>

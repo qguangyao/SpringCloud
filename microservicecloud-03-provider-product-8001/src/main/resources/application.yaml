@@ -4,7 +4,7 @@ server:
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
-  type-aliases-package: com.com.qt.entities
+  type-aliases-package: com.qt.entities
   mapper-locations: classpath:mybatis/mapper/**/*.xml
 
 spring:

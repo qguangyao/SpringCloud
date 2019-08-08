@@ -25,7 +25,7 @@
     </content>
     <orderEntry type="jdk" jdkName="1.8" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: com.qt.springcloud:microservicecloud-02-api:1.0-SNAPSHOT" level="project" />
+    <orderEntry type="module" module-name="microservicecloud-02-api" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.0.7.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.0.7.RELEASE" level="project" />
@@ -142,6 +142,5 @@
     <orderEntry type="library" name="Maven: com.netflix.hystrix:hystrix-core:1.5.12" level="project" />
     <orderEntry type="library" name="Maven: org.hdrhistogram:HdrHistogram:2.1.9" level="project" />
     <orderEntry type="library" name="Maven: io.github.openfeign:feign-java8:9.7.0" level="project" />
-    <orderEntry type="module" module-name="microservicecloud-02-api" />
   </component>
 </module>

@@ -1,5 +1,6 @@
 package com.qt.controller;
 
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import com.qt.entities.Product;
 import com.qt.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,9 +18,19 @@ public class ProductController {
         return productService.add(product);
     }
 
+    @HystrixCommand(fallbackMethod = "getNull")
     @RequestMapping(value = "/product/get/{id}", method = RequestMethod.GET)
     public Product get(@PathVariable("id") Long id) {
-        return productService.get(id);
+        Product product = productService.get(id);
+        if (product == null){
+            throw new RuntimeException("product为null");
+        }
+        return product;
+    }
+
+    public Product getNull(@PathVariable("id") Long id) {
+        Product product =new Product(id,"熔断","未访问数据库");
+        return product;
     }
 
     @RequestMapping(value = "/product/list", method = RequestMethod.GET)
