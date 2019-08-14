@@ -2,13 +2,15 @@
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
     <file url="file://$PROJECT_DIR$/microservice-cloud-01" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/microservice-cloud-01/microservicecloud-03-provider-product-8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservice-cloud-07-9001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-02-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-03-provider-product-8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-03-provider-product-8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-04-consumer-product-8081" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-05-6001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-06-6002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-07-9001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/microservicecloud-08-zuul-gateway-7001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../microservicecloud-04-consumer-product-80" charset="UTF-8" />
   </component>
 </project>

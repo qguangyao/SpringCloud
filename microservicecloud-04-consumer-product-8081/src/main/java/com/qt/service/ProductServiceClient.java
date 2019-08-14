@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import java.util.List;
 
-@FeignClient(value = "microservice-product")
+@FeignClient(value = "microservice-product",fallback = ProductClientFallback.class)
 public interface ProductServiceClient {
 
     @RequestMapping(value = "product/add")

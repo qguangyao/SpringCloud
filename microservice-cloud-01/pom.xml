@@ -15,6 +15,9 @@
         <module>../microservicecloud-06-6002</module>
         <module>../microservicecloud-03-provider-product-8002</module>
         <module>../microservicecloud-04-consumer-product-8081</module>
+        <module>../microservice-cloud-07-9001</module>
+        <module>../microservicecloud-07-9001</module>
+        <module>../microservicecloud-08-zuul-gateway-7001</module>
     </modules>
     <packaging>pom</packaging>
 
