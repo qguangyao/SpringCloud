@@ -15,6 +15,7 @@
         <module name="microservicecloud-06-6002" />
         <module name="microservicecloud-07-9001" />
         <module name="microservicecloud-08-zuul-gateway-7001" />
+        <module name="microservicecloud-09-config-server-5001" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +31,8 @@
       <module name="microservicecloud-06-6002" target="1.8" />
       <module name="microservicecloud-07-9001" target="1.8" />
       <module name="microservicecloud-08-zuul-gateway-7001" target="1.8" />
+      <module name="microservicecloud-09-config-server-5001" target="1.8" />
+      <module name="microservicecloud-11-config-server-5001" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -45,6 +48,8 @@
       <module name="microservicecloud-06-6002" options="-parameters" />
       <module name="microservicecloud-07-9001" options="-parameters" />
       <module name="microservicecloud-08-zuul-gateway-7001" options="-parameters" />
+      <module name="microservicecloud-09-config-server-5001" options="-parameters" />
+      <module name="microservicecloud-11-config-server-5001" options="-parameters" />
     </option>
   </component>
 </project>
