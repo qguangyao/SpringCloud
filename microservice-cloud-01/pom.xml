@@ -20,6 +20,7 @@
         <module>../microservicecloud-08-zuul-gateway-7001</module>
         <module>../microservicecloud-11-config-server-5001</module>
         <module>../microservicecloud-09-config-server-5001</module>
+        <module>../microservicecloud-10-consumer-product-8082</module>
     </modules>
     <packaging>pom</packaging>
 

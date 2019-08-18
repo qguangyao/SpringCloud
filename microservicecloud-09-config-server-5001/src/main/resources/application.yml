@@ -2,6 +2,8 @@ server:
   port: 5001
 
 spring:
+#  profiles:
+#    active: native
   application:
     name: microservice-config
   cloud:
@@ -9,4 +11,8 @@ spring:
       server:
         git:  # 远程库的git地址
           uri: https://github.com/qguangyao/SpringCloud.git
+#        native:
+#          search-locations: microservicecloud-09-config-server-5001/src/resources #microservice-cloud-native-application
+#        bootstrap: true
+
 
