@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8c144ba8-177e-49a8-8665-9032728b080d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_0_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-09-config-server-5001/src/main/resources/microservice-cloud-native-application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/microservicecloud-10-consumer-product-8082.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/src/main/java/com/qt/ConfigClient_8082.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/src/main/java/com/qt/controller/ConfigClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservice-cloud-01/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-01/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-09-config-server-5001/src/main/java/com/qt/ConfigServer_5001.java" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-09-config-server-5001/src/main/java/com/qt/ConfigServer_5001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-09-config-server-5001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-09-config-server-5001/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-09-config-server-5001/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-09-config-server-5001/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/microservicecloud-09-config-server-5001/target/classes/com/qt/ConfigServer_5001.class" beforeDir="false" afterPath="$PROJECT_DIR$/microservicecloud-09-config-server-5001/target/classes/com/qt/ConfigServer_5001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/microservice-cloud-eureka.yml" beforeDir="false" afterPath="$PROJECT_DIR$/microservice-cloud-eureka.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/microservice-cloud-01/target/" />
     <ignored path="$PROJECT_DIR$/microservicecloud-02-api/target/" />
@@ -67,45 +52,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/src/main/java/com/qt/controller/ConfigClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/src/main/java/com/qt/ConfigClient_8082.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#306#307#0" expanded="true" />
-                <element signature="e#369#370#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/src/main/resources/application.yml">
+        <entry file="file://$PROJECT_DIR$/microservice-cloud-product.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/src/main/resources/bootstrap.yml">
+        <entry file="file://$PROJECT_DIR$/microservicecloud-03-provider-product-8002/src/main/resources/application.yaml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            <state relative-caret-position="540">
+              <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -142,8 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservicecloud-05-6001/src/main/java/com/qt/EurekaServer_6001.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-06-6002/src/main/java/com/qt/EurekaServer_6002.java" />
         <option value="$PROJECT_DIR$/microservicecloud-05-6001/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservicecloud-06-6002/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/../microservicecloud-04-consumer-product-80/src/main/java/com/qt/controller/Consumer.java" />
@@ -193,6 +150,8 @@
         <option value="$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/src/main/java/com/qt/ConfigClient_8082.java" />
         <option value="$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/src/main/java/com/qt/controller/ConfigClient.java" />
         <option value="$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/microservice-cloud-eureka.yml" />
+        <option value="$PROJECT_DIR$/microservice-cloud-product.yml" />
       </list>
     </option>
   </component>
@@ -273,6 +232,28 @@
           <expand>
             <path>
               <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud-03-provider-product-8002" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud-03-provider-product-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud-03-provider-product-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservicecloud-03-provider-product-8002" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="microservicecloud-10-consumer-product-8082" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -332,7 +313,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566144672313" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566145732737" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -475,15 +456,16 @@
       <workItem from="1562000242004" duration="8665000" />
       <workItem from="1564409113374" duration="29542000" />
       <workItem from="1565195937195" duration="912000" />
-      <workItem from="1565371867434" duration="11179000" />
+      <workItem from="1565371867434" duration="12088000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51847000" />
+    <option name="totallyTimeSpent" value="52756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3197425" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -493,7 +475,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" visible="true" weight="0.32891566" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.32891566" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32891566" />
@@ -504,7 +486,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.24698795" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24698795" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5007153" side_tool="true" weight="0.32891566" />
       <window_info anchor="bottom" id="Spring" order="12" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" />
@@ -526,17 +508,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../microservicecloud-04-consumer-product-80/src/main/java/com/qt/controller/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="18" column="67" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qt/springcloud/microservicecloud-02-api/1.0-SNAPSHOT/microservicecloud-02-api-1.0-SNAPSHOT.jar!/com/qt/entities/Product.class" />
     <entry file="file://$PROJECT_DIR$/../microservicecloud-04-consumer-product-80/src/main/java/com/qt/ProductConsumer_80.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -672,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../microservicecloud-04-consumer-product-80/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservicecloud-04-consumer-product-8081/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -770,13 +734,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="60" column="21" selection-start-line="60" selection-start-column="21" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-03-provider-product-8002/src/main/resources/application.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -916,6 +873,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
           <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-eureka.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="34" selection-start-line="25" selection-start-column="34" selection-end-line="25" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../microservicecloud-04-consumer-product-80/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-cloud-product.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservicecloud-03-provider-product-8002/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
         </state>
       </provider>
     </entry>
