@@ -11,7 +11,7 @@ import java.io.File;
 public class ConfigServer_5001 {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigServer_5001.class);
+        SpringApplication.run(ConfigServer_5001.class,args);
         File directory = new File("");//设定为当前文件夹
         try {
             System.out.println(directory.getCanonicalPath());//获取标准的路径

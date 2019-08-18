@@ -18,6 +18,7 @@
         <module name="microservicecloud-09-config-server-5001" />
         <module name="microservicecloud-10-consumer-product-8082" />
         <module name="microservicecloud-11-eureka-config-6003" />
+        <module name="microservicecloud-12-product-config-8003" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -37,6 +38,7 @@
       <module name="microservicecloud-10-consumer-product-8082" target="1.8" />
       <module name="microservicecloud-11-config-server-5001" target="1.8" />
       <module name="microservicecloud-11-eureka-config-6003" target="1.8" />
+      <module name="microservicecloud-12-product-config-8003" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -56,6 +58,7 @@
       <module name="microservicecloud-10-consumer-product-8082" options="-parameters" />
       <module name="microservicecloud-11-config-server-5001" options="-parameters" />
       <module name="microservicecloud-11-eureka-config-6003" options="-parameters" />
+      <module name="microservicecloud-12-product-config-8003" options="-parameters" />
     </option>
   </component>
 </project>

@@ -9,6 +9,6 @@ import org.springframework.web.context.annotation.ApplicationScope;
 public class ConfigClient_8082 {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConfigClient_8082.class);
+        SpringApplication.run(ConfigClient_8082.class,args);
     }
 }

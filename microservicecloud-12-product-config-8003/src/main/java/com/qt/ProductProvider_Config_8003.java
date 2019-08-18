@@ -2,12 +2,12 @@ package com.qt;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
-@EnableZuulProxy
+@EnableEurekaClient
 @SpringBootApplication
-public class ZuulServer_7001 {
+public class ProductProvider_Config_8003 {
     public static void main(String[] args) {
-        SpringApplication.run(ZuulServer_7001.class,args);
+        SpringApplication.run(ProductProvider_Config_8003.class,args);
     }
 }
