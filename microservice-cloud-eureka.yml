@@ -4,13 +4,14 @@ spring:
     active: dev # 激活开发环境配置
 ---
 server:
-  port: 6001 #端口号
+  port: 6003 #端口号
 spring:
-  profiles: dev # 开发环境 application:
+  profiles: dev # 开发环境
+  application:
    name: microservice-cloud-eureka
 eureka:
   instance:
-    hostname: eureka6001.com
+    hostname: 127.0.0.1:6001
   client:
     registerWithEureka: false
     fetchRegistry: false
@@ -20,13 +21,14 @@ eureka:
     enable-self-preservation: false # 禁用自我保护机制*****************
 ---
 server:
-  port: 6001 #端口号
+  port: 6003 #端口号
 spring:
-  profiles: prod # 生产环境 application:
+  profiles: prod # 生产环境
+  application:
    name: microservice-cloud-eureka
 eureka:
   instance:
-    hostname: eureka6001.com
+    hostname: 127.0.0.1:6001
   client:
     registerWithEureka: false
     fetchRegistry: false

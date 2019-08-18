@@ -4,13 +4,14 @@ spring:
     active: dev # 激活开发环境配置
 ---
 server:
-  port: 8001
+  port: 8003
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.mengxuegu.springcloud.entities
   mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
-  profiles: dev # 开发环境 application:
+  profiles: dev # 开发环境
+  application:
     name: microservice-product-config # ******服务名*******
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource
@@ -34,13 +35,14 @@ eureka:
       prefer-ip-address: true
 ---
 server:
-  port: 8001
+  port: 8003
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml
   type-aliases-package: com.mengxuegu.springcloud.entities
   mapper-locations: classpath:mybatis/mapper/**/*.xml
 spring:
-  profiles: prod # 生产环境 application:
+  profiles: prod # 生产环境
+  application:
     name: microservice-product-config # ******服务名*******
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource

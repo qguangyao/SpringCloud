@@ -21,6 +21,7 @@
         <module>../microservicecloud-11-config-server-5001</module>
         <module>../microservicecloud-09-config-server-5001</module>
         <module>../microservicecloud-10-consumer-product-8082</module>
+        <module>../microservicecloud-11-eureka-config-6003</module>
     </modules>
     <packaging>pom</packaging>
 

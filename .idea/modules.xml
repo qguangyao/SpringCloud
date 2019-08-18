@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-08-zuul-gateway-7001/microservicecloud-08-zuul-gateway-7001.iml" filepath="$PROJECT_DIR$/microservicecloud-08-zuul-gateway-7001/microservicecloud-08-zuul-gateway-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-09-config-server-5001/microservicecloud-09-config-server-5001.iml" filepath="$PROJECT_DIR$/microservicecloud-09-config-server-5001/microservicecloud-09-config-server-5001.iml" />
       <module fileurl="file://$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/microservicecloud-10-consumer-product-8082.iml" filepath="$PROJECT_DIR$/microservicecloud-10-consumer-product-8082/microservicecloud-10-consumer-product-8082.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservicecloud-11-eureka-config-6003/microservicecloud-11-eureka-config-6003.iml" filepath="$PROJECT_DIR$/microservicecloud-11-eureka-config-6003/microservicecloud-11-eureka-config-6003.iml" />
     </modules>
   </component>
 </project>
