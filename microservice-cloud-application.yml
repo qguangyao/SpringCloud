@@ -9,6 +9,15 @@ spring:
   profiles: dev # 开发环境
   application:
     name: microservice-config-dev
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:6001/eureka
+  instance:
+    instance-id: ${spring.application.name}:${server.port}-hystrix
+    prefer-ip-address: true
 ---
 server:
   port: 4002 #端口号
@@ -16,3 +25,13 @@ spring:
   profiles: prod # 生产环境
   application:
     name: microservice-config-prod
+
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:6001/eureka
+  instance:
+    instance-id: ${spring.application.name}:${server.port}-hystrix
+    prefer-ip-address: true
